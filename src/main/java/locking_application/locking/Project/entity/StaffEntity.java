@@ -22,4 +22,5 @@ public class StaffEntity {
 
     @Version
     private int versioning;
+
 }
