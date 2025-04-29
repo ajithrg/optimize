@@ -12,4 +12,5 @@ import lombok.NoArgsConstructor;
 public class Address {
     private Integer id;
     private String city;
+    private String state;
 }
