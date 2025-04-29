@@ -16,5 +16,14 @@ public class DoctorEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    private String firstname;
     private String name;
+    private String address;
+    private Long mobileNumber;
+
+
+    public Integer getId() {
+        return id;
+    }
+
 }
