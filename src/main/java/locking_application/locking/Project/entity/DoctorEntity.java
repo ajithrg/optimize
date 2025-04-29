@@ -25,4 +25,5 @@ public class DoctorEntity {
     public Integer getId() {
         return id;
     }
+
 }
