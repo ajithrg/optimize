@@ -19,6 +19,10 @@ public class StaffEntity {
     private Integer staffId;
 
     private String firstName;
+
+
+    private String lastName;
+    private String emailId;
     private String dob;
     private String priviledge;
 
