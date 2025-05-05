@@ -1,6 +1,5 @@
 package locking_application.locking.Project.service;
 
-import locking_application.locking.Project.dto.PatientUpdateDTO;
 import locking_application.locking.Project.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

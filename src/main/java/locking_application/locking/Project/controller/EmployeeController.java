@@ -1,7 +1,6 @@
 package locking_application.locking.Project.controller;
 
 
-import locking_application.locking.Project.dto.PatientUpdateDTO;
 import locking_application.locking.Project.service.PatientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
