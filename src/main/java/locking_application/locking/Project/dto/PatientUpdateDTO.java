@@ -11,8 +11,6 @@ import lombok.NoArgsConstructor;
 @Data
 
 public class PatientUpdateDTO {
-    private String contactInfo;
 
-    private String diagnosis;
 
 }
