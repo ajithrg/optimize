@@ -11,6 +11,7 @@ public class PatientService {
     private final PatientRepository patientRepository;
 
     public String storeUserData(PatientUpdateDTO dto){
+
         return "User data stored successfully";
     }
 }
