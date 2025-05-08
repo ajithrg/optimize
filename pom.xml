@@ -9,9 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>locking-application</groupId>
-	<artifactId>locking-Project</artifactId>
+	<artifactId>optimize</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>locking-Project</name>
+    <packaging>pom</packaging>
+    <name>locking-Project</name>
 	<description>A project about the locking concepts </description>
 	<url/>
 	<licenses>
@@ -20,7 +21,10 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>usewr</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
