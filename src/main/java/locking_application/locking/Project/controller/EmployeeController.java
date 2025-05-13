@@ -18,7 +18,7 @@ public class EmployeeController {
     private final PatientService patientService;
 
     @PostMapping
-    public ResponseEntity<String> storeUserData(@RequestBody PatientUpdateDTO dto){
+    public ResponseEntity<String> storeUserData(@RequestBody PatientUpdateDTO  dto){
 
     String userData=    patientService.storeUserData(dto);
 
